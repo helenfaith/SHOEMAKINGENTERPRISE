@@ -1,14 +1,36 @@
 .header{
-    background-image: url("image/grace.jpg");
+    background-image: url("image/home.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
 }
 .shoes{
     text-align: center;
+    text-size-adjust: 20%;
+    margin: 10%;
 }
 .simplewears{
     text-align: center;
+    margin: 2%;
 }
 .unique_skill li{
     padding-right: ;
+}
+.nav-links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: end;
+    justify-content: flex-end;
+    
 }
